@@ -10,7 +10,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1440px) {
   body {
     margin: 1em 5em 1em 5em;
   }
