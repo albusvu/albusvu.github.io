@@ -16,11 +16,15 @@ body {
   }
 }
 
+#header {
+  text-align: center;
+}
+
 #header h1 {
   color: rgb(0, 78, 0);
   font-size: 2em;
   line-height: 0.5em;
-  margin-top: 1.75em;
+  /*margin-top: 1.75em;*/
   font-weight: 700;
 }
 
@@ -28,7 +32,7 @@ body {
   font-size: 1.75em;
   line-height: 1.25em;
   font-weight: 400;
-  margin-bottom: 1.75em;
+  /* margin-bottom: 1.75em; */
 }
 
 #intro p {
@@ -36,10 +40,30 @@ body {
   line-height: 1.5em;
 }
 
+.study {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.work {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.skills {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.academics {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .study h1 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgb(0, 78, 0);
   word-break: break-all;
 }
@@ -47,20 +71,20 @@ body {
 .study h2 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgba(94, 95, 94, 0.9);
   font-weight: 400;
 }
 
 .study p {
   line-height: 1.2em;
-  margin-bottom: 0em;
+  /* margin-bottom: 0em; */
 }
 
 .work h1 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgb(0, 78, 0);
   word-break: break-all;
 }
@@ -68,7 +92,7 @@ body {
 .work h2 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgba(94, 95, 94, 0.9);
   font-weight: 400;
 }
@@ -79,13 +103,14 @@ body {
 
 .work ul {
   line-height: 1.2em;
-  margin-left: 0;
+  list-style-type: none;
+  /* margin-left: 0; */
 }
 
 footer {
   font-size: 1.5em;
   line-height: 1.25em;
-  margin-top: 1.75em;
+  /* margin-top: 1.75em; */
   font-weight: 700;
 }
 
@@ -101,7 +126,7 @@ a:hover {
 .skills h1 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgb(0, 78, 0);
   word-break: break-all;
 }
@@ -113,21 +138,27 @@ a:hover {
 .academics h1 {
   font-size: 1em;
   line-height: 1em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   color: rgb(0, 78, 0);
   word-break: break-all;
 }
 
 .academics p {
-    line-height: 1.2em;
+    padding-top: 0;
 }
 
 .academics ul {
-    line-height: 1.2em;
-    margin-top: -0.75em;
-    margin-bottom: -0.75em;
+    /* margin-top: -0.75em;
+    margin-bottom: -0.75em; */
+    list-style-type: none;
+    padding-left: 0.5;
   }
 
 #col {
   flex-direction: column;
+}
+
+.academics p + ul {
+  margin-top: -0.75em;
+  margin-bottom: -0.75em;
 }
